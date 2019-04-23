@@ -1,0 +1,42 @@
+.modal {
+  width: 90%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  position: relative;
+  top: 20vh;
+  left: 5%;
+}
+
+.modal__header {
+  padding: 1rem;
+  background: rgb(93, 120, 194);
+  color: white;
+}
+
+.modal__header h1 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.modal__content {
+  padding: 1rem;
+}
+
+.modal_actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 30rem;
+    left: calc((100%-30rem) / 2);
+  }
+}
+
+.btn {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

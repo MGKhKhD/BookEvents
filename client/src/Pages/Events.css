@@ -1,0 +1,17 @@
+.events-control {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid blueviolet;
+  margin: 2rem auto;
+  width: 35rem;
+  max-width: 80%;
+}
+
+.loading-p {
+  font-size: 1.5rem;
+  color: rgb(34, 39, 46);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

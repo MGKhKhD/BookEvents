@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGODB_USER": "",
+    "MONGODB_PASSWORD": "",
+    "MONGODB_URL": "mongodb://localhost:27017/bookevents",
+    "JWT_KEY": "SECRET_KEY_forsigning"
+  }
+}
